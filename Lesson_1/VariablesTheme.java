@@ -25,16 +25,19 @@ class VariablesTheme {
         int num2 = 200;
         int sum = num1 + num2; //сумма
         int num3 = sum/100*11;//сумма скидки
-        int e = sum+w;
+        int e = sum-num3;
         System.out.println(sum);
         System.out.println(num3);
         System.out.println(e);
 
-        System.out.println(3 + "Вывод слово JAVA");
+        System.out.println(3 + " Вывод слово JAVA");
            System.out.println("     J      a  v        v a         \n" +
                 "     J     a a  v     v  a a\n"  +
                 " J   J    aaaaa  V  V   aaaaa\n" +
                 "  JJ     a     a   V   a     a  ");
+
+           System.out.println(4 + " Вывод min и max значений целых числовых типов");
+
        }
    }
     
