@@ -31,12 +31,19 @@ class VariablesTheme {
         System.out.println(e);
 
         System.out.println(3 + " Вывод слово JAVA");
-           System.out.println("     J      a  v        v a         \n" +
-                "     J     a a  v     v  a a\n"  +
+           System.out.println("     J      a  v      v   a         \n" +
+                "     J     a a  v    v   a a\n"  +
                 " J   J    aaaaa  V  V   aaaaa\n" +
                 "  JJ     a     a   V   a     a  ");
 
            System.out.println(4 + " Вывод min и max значений целых числовых типов");
+           byte num4 = 127;
+           short num5 = 32767;
+           int num6 = 2147483647;
+           long num7 = 9223372036854775807l;
+           System.out.println(num4);
+           System.out.println(num4++);// i++,  в начале 
+           System.out.println(num4--);//i--;
 
        }
    }
