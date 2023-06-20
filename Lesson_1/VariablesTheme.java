@@ -17,8 +17,7 @@ class VariablesTheme {
         System.out.println(maxFrecClock);
         System.out.println(diagonal);
         System.out.println(symbol);
-        System.out.println(onPC);
-        System.out.println("");
+        System.out.println(onPC + "\n");
 
         System.out.println("2 - Расчет стоимости товара со скидкой");
         int penPrice = 100;
@@ -28,15 +27,13 @@ class VariablesTheme {
         int discountPrice = sum - discountSum;
         System.out.println(sum);
         System.out.println(discountSum);
-        System.out.println(discountPrice);
-        System.out.println("");
+        System.out.println(discountPrice + "\n");
 
-        System.out.println("3 -  Вывод слово JAVA");
-        System.out.println("     J      a  v      v   a\n" +
-                "     J     a a  v    v   a a\n" +
-                " J   J    aaaaa  V  V   aaaaa\n" +
-                "  JJ     a     a   V   a     a  ");
-        System.out.println("");
+          System.out.println("3 -  Вывод слово JAVA");
+        System.out.println("     J    a  v      v   a\n" +
+                "     J   a a  v    v   a a\n" +
+                " J   J  aaaaa  V  V   aaaaa\n" +
+                "  JJ   a     a   V   a     a  \n");
 
         System.out.println("4 -  Вывод min и max значений целых числовых типов");
         byte maxByte = 127;
@@ -57,8 +54,7 @@ class VariablesTheme {
         long maxLong = 9223372036854775807l;
         System.out.println(maxLong);
         System.out.println(++maxLong);
-        System.out.println(--maxLong);
-        System.out.println("");
+        System.out.println(--maxLong + "\n");
 
         System.out.println("5 - Перестановка значений переменных");
         int num1 = 2;
@@ -67,65 +63,61 @@ class VariablesTheme {
         int tmp = num1;
         num1 = num2;
         num2 = tmp;
-        System.out.println("num1 " + "= " + 2 + ", num2 " + "= " + 5 + "\n" +
-                "num1 " + "= " + num1 + ", num2 " + "=" + num2);
-        System.out.println("С помощью арифметических операций");
+        System.out.println("num1 " + "= " + num2 + ", num2 " + "= " + num1 + "\n" +
+                "num1 " + "= " + num1 + ", num2 " + "= " + num2 + "\n");
 
+        System.out.println("С помощью арифметических операций");
         num1 += num2;
         num2 = num1 - num2;
         num1 -= num2;
-        System.out.println("num1 " + " =  " + 5 + " , num2 " + " = " + 2 + "\n" +
-                "num1 " + "= " + num1 + ", num2 " + "= " + num2);
-        System.out.println("С помощью побитовой операции");
+        System.out.println("num1 " + "= " + num2 + ", num2 " + "= " + num1 + "\n" +
+                "num1 " + "= " + num1 + ", num2 " + "= " + num2 + "\n");
 
+        System.out.println("С помощью побитовой операции");
         num1 ^= num2;
         num2 ^= num1;
         num1 ^= num2;
-        System.out.println("num1 " + "= " + 2 + " , num2 " + " = " + 5 + "\n" +
-                "num1 " + "= " + num1 + ", num2 " + "= " + num2);
-        System.out.println("");
+        System.out.println("num1 " + "= " + num2 + ", num2 " + "= " + num1 + "\n" +
+                "num1 " + "= " + num1 + ", num2 " + "= " + num2 + "\n");
 
         System.out.println("6 - Вывод символов и их кодов");
         char lattice = '#';
         char ampersand = '&';
         char commercialAt = '@';
-        char subdigitallyExclusiveOr = '^';
-        char underlining = '_';
+        char Caret = '^';
+        char underscore = '_';
 
-        System.out.println(lattice + "-" + (int)lattice + "\n" +
-        ampersand + "-" + (int)ampersand + "\n" +
-        commercialAt + "-" + (int)commercialAt + "\n" +
-        subdigitallyExclusiveOr + "-" + (int)subdigitallyExclusiveOr + '\n' +
-        underlining + "-" + (int)underlining);
-        System.out.println("");
+        System.out.println(lattice + "-" + (int) lattice + "\n" +
+            ampersand + "-" + (int) ampersand + "\n" +
+            commercialAt + "-" + (int) commercialAt + "\n" +
+            Caret + "-" + (int) Caret + '\n' +
+            underscore + "-" + (int) underscore + "\n");
 
-        System.out.println("7 - Вывод в консоль ASCII-арт Дюка");
-        String slash = "/";
-        String underscore = "_";
-        String leftParenthesis = "(";
-        String rightParenthesis = ")";
-        String backslash = "\\";
+     System.out.println("7 - Вывод в консоль ASCII-арт Дюка");
+        char slash = '/';
+        char underscoreLesson7 = '_';
+        char leftParenthesis = '(';
+        char rightParenthesis = ')';
+        char backslash = '\\';
         System.out.println("     " + slash + " " + backslash + "\n" +
                 "    " + slash + "   " + backslash + "\n" +
-                "   " + slash + underscore + leftParenthesis + "  " + rightParenthesis + backslash + "\n" +
+                "   " + slash + underscoreLesson7 + leftParenthesis + " " + rightParenthesis + " " + backslash + "\n" +
                 "  " + slash + "       " + backslash + "\n" +
-                " " + slash + underscore + underscore + underscore + underscore + slash + backslash + underscore + underscore +
-        underscore + backslash);
-        System.out.println("");
+                " " + slash + underscoreLesson7 + underscoreLesson7 + underscoreLesson7 + underscoreLesson7 + slash + backslash + underscoreLesson7 + underscoreLesson7 +
+                underscoreLesson7 + backslash + "\n");
 
         System.out.println("8 - Вывод количества сотен, десятков и единиц числа");
         int num = 123;
-        int hundred = num / 100;
-        int dozen = num / 10;
-        int unit = num / 1;
+        int ones = num % 10;
+        int tens = (num - ones) / 10;
+        int hundreds = num / 100;
 
         System.out.println("Число " + num + " содержит:" + "\n" +
-                hundred + " сотен" + "\n" +
-                dozen + " десятков" + "\n" +
-                unit + " единиц" + "\n" +
-                "сумма его цифр = " + (hundred + dozen + unit) +"\n" +
-                "произведение = " + (hundred * dozen * unit));
-        System.out.println("");
+                hundreds + " сотен" + "\n" +
+                tens + " десятков" + "\n" +
+                ones + " единиц" + "\n" +
+                "сумма его цифр = " + (hundreds + tens + ones) +"\n" +
+                "произведение = " + (hundreds * tens * ones) + "\n");
 
         System.out.println("9 - Вывод времени");
         int time = 86399;
