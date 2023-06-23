@@ -29,7 +29,7 @@ class VariablesTheme {
         System.out.println(discountSum);
         System.out.println(discountPrice + "\n");
 
-          System.out.println("3 -  Вывод слово JAVA");
+        System.out.println("3 -  Вывод слово JAVA");
         System.out.println("     J    a  v      v   a\n" +
                 "     J   a a  v    v   a a\n" +
                 " J   J  aaaaa  V  V   aaaaa\n" +
@@ -84,32 +84,32 @@ class VariablesTheme {
         char lattice = '#';
         char ampersand = '&';
         char commercialAt = '@';
-        char Caret = '^';
+        char caret = '^';
         char underscore = '_';
 
         System.out.println(lattice + "-" + (int) lattice + "\n" +
             ampersand + "-" + (int) ampersand + "\n" +
             commercialAt + "-" + (int) commercialAt + "\n" +
-            Caret + "-" + (int) Caret + '\n' +
+            caret + "-" + (int) caret + '\n' +
             underscore + "-" + (int) underscore + "\n");
 
-     System.out.println("7 - Вывод в консоль ASCII-арт Дюка");
+        System.out.println("7 - Вывод в консоль ASCII-арт Дюка");
         char slash = '/';
-        char underscoreLesson7 = '_';
         char leftParenthesis = '(';
         char rightParenthesis = ')';
         char backslash = '\\';
         System.out.println("     " + slash + " " + backslash + "\n" +
                 "    " + slash + "   " + backslash + "\n" +
-                "   " + slash + underscoreLesson7 + leftParenthesis + " " + rightParenthesis + " " + backslash + "\n" +
+                "   " + slash + underscore + leftParenthesis + " " + rightParenthesis + 
+                " " + backslash + "\n" +
                 "  " + slash + "       " + backslash + "\n" +
-                " " + slash + underscoreLesson7 + underscoreLesson7 + underscoreLesson7 + underscoreLesson7 + slash + backslash + underscoreLesson7 + underscoreLesson7 +
-                underscoreLesson7 + backslash + "\n");
+                " " + slash + underscore + underscore + underscore + underscore + slash + 
+                backslash + underscore + underscore + underscore + backslash + "\n");
 
         System.out.println("8 - Вывод количества сотен, десятков и единиц числа");
         int num = 123;
         int ones = num % 10;
-        int tens = (num - ones) / 10;
+        int tens = num / 10 % 10;
         int hundreds = num / 100;
 
         System.out.println("Число " + num + " содержит:" + "\n" +
